@@ -27,4 +27,6 @@ public:
 	int32 MyInt = 99;
 	UPROPERTY(EditAnywhere)
 	bool isFlying = false;
+	UPROPERTY(EditAnywhere)
+	float damage = 9.0f;
 };
