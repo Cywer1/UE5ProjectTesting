@@ -29,4 +29,6 @@ public:
 	bool isFlying = false;
 	UPROPERTY(EditAnywhere)
 	float damage = 9.0f;
+	UPROPERTY(EditAnywhere)
+	bool isGround = true;
 };
